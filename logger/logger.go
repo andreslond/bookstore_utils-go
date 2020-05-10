@@ -64,6 +64,7 @@ func getOutPut() string {
 	if output == "" {
 		return "stdout"
 	}
+	return output
 }
 
 func GetLogger() bookstoreLogger {
